@@ -1,7 +1,7 @@
 "use strict";
 
 const Sequelize = require("sequelize");
-const dbConfig = require(__dirname + "./../database");
+const dbConfig = require("./database");
 const db = {};
 
 
