@@ -8,8 +8,7 @@ const {
 main();
 
 async function main() {
-    let paginationIndexer = { transactionIndex: 0 };
-    let result = await queryAccountTransactionsList('serhii.testnet', 15, paginationIndexer, DS_INDEXER_TESTNET);
+    let result = await queryAccountTransactionsList('serhii.testnet', 15, null, DS_INDEXER_TESTNET);
     console.log(result);
 }
 
